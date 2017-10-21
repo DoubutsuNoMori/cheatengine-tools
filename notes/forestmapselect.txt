@@ -1,0 +1,76 @@
+﻿FOREST MAP SELECT
+
+-Settei-
+
+RTC      Z	:USE
+2001/04/06<FRI>	(cannot be changed)
+	13:00	(cannot be changed)
+Step	:※※m※※s
+Weather*	:cherry blossoms/random/clear/rain/snow
+Gender	:onnanoko(girl)/otokonoko(boy)
+Face	:Type°2/Type°3/Type°4/Type°5/Type°6/Type°7/Type°8/Type°1
+Stung	:Itakunai(Painless)/Itasou(Painful)
+Data	:Monohon(Nothing)/Kagemusha
+Clothes	:011 (cannot be changed)
+Sunburn	:0 0/0 -> 8 m/d
+Event	:---
+
+*weather will stop after a few seconds and transition to cherry blossoms.
+*random causes autumn leaves to fall and every step to become an animated "ha". leaving the acre changes the weather to cherry blossoms.
+
+(x)'Stung' is actually "Mushisasare" meaning 'insect bites'
+(y)'Data' refers to the "gyroid face"
+date&time (under RTC) & m/d dependent on during which title screen the map select was accessed
+
+1:Field Course1
+2:Field Course2
+3:Field Course3
+4:Water Test Course
+5:Footprints Test Course
+6:npc testcourse
+7:NPC Arrange Room
+8:NPC RandomCourse
+9:FGtool "for the field"
+10:Shop
+11:
+12:
+13:
+14:FGtool "for inside of the room"
+15:
+16:
+17:
+18:
+19:
+20:
+21:
+22:
+23:
+24:
+25:
+26:
+27:
+28:
+29:
+30:
+31:
+32:
+33:
+34:
+35:
+36:
+37:
+38:
+39:
+40:
+41:
+42:
+43:
+44:
+45:
+46:
+47:
+48:
+49:
+50:start demo 3
+51:LIGHTHOUSE
+52:In Tent

@@ -1,0 +1,67 @@
+CONTROLLER 1
+	this is reserved for normal player control and does not interface with any other debug input.
+
+CONTROLLER 2
+
+A
+	Clock (Advance using R)	msg no : <last retrieved message id>	D
+00000 00000 00000 $**** ***** ***** ***** ($ can be e or c; no idea what causes changes in any) (e appears after loading data; 0s appear when resetting on recompiler mode)
+??? example: 65115 20 84
+<last retrieved message id>
+acre ID
+player coordinate in acre x, player coordinate in acre acre y 	-	<object ID> (below player)	-	terrain material id	-	??? example: -1, 4, 0
+
+B, Y, X, Start, L, R, C LEFT, C DOWN
+	nothing
+Z
+	(draws large semitransparent black box -- not crash debugger)
+
+Dpad RIGHT
+		0	0	255 (no known way to change values)
+
+DPad LEFT
+	00 00-00-00(what are these ?)	TFGRADPL
+						_
+
+	T = Title screen
+	F = during pick a house
+	G = during train departure/ride
+	R = Normal gameplay (does not appear in debug worlds)
+	A = Town/Data loaded (can be in debug worlds if data previously loaded)
+	D = Loading / Dialogue
+	P = Gameplay/Input Pause
+	L = path limited ?
+	_ = outdoors
+
+Dpad UP
+	0	0	0pnA60,60,60,60,60
+	B60,60,60,60,60C60,60,60,60,60
+
+
+
+
+	S0,0Gt0,0BS0,0AS0,0
+	S0,0Gt0,0BS0,0AS0,0
+	S0,0Gt0,0BS0,0AS0,0
+	S0,0Gt0,0BS0,0AS0,0
+(no known way to change any values)
+
+Dpad DOWN
+	Famicom 0 (increments up to 20 by pressing Start)
+
+C RIGHT
+	0000 0000 0000
+	 00 00 30
+	 00
+	   0 00 00 00 00 00 	0 00 00 00
+
+
+	0000
+	**** **** **** ****
+	**** **** **** ****
+(no known way to change any values)
+
+C UP
+	zelda_malloc	saida 	aki 	2e86d0 (this value changes between levels or acres)
+				aki 	2e86d0 (this matches the first value)
+	graph_alloc	remaining	118b8 (this value changes sporadically)	

@@ -1,0 +1,19 @@
+for field tool
+==
+no dump
+no able sisters
+no dock
+no museum
+villagers will always assume never met
+attempting to save disallows as there is "already data" (?)
+	if then attempt to return to game, you are left in a void that is infinite? in all directions
+	going beyond the void's normal bounds causes the camera to offset strangely
+trees beyond tracks
+town map appears blank (still has villagers)
+copper not present at police station (E-4)
+	exiting from station acts as normal
+nook's cranny (A-4)
+post office (A-1)
+wishing well (E-1)
+
+another town's borders present below first town
